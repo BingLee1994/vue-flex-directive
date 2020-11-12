@@ -1,0 +1,40 @@
+{
+  "name": "flex-box",
+  "version": "1.0.0",
+  "description": "Easy to use.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server --open"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "Cheetah",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
+    "@vue/babel-preset-jsx": "^1.1.2",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "cli": "^1.0.1",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "vue-loader": "^15.9.3",
+    "vue-loader-plugin": "^1.3.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
+}
